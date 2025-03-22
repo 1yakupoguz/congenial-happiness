@@ -62,9 +62,7 @@ Bu komut, belirtilen görev ID'sine sahip görevi tamamlandı olarak işaretler.
 
 ## Test Dosyası Kullanımı
 
-Botun veritabanı işlemlerini test etmek için aşağıdaki fonksiyonları kullanabilirsiniz:
-
-### 📌 Veri Tabanı Bağlantısı
+Botunuz aşağıdaki her işlem için veri tabanı bağlantısını otomatik olarak yapacak, başarı durumuna göre çıktı verecektir.
 
 ### 📝 Görev Ekleme
 
