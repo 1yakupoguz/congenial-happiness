@@ -66,12 +66,10 @@ Botun veritabanı işlemlerini test etmek için aşağıdaki fonksiyonları kull
 
 ### 📌 Veri Tabanı Bağlantısı
 
-İlk olarak `connect_db` fonksiyonunu çağırarak veritabanına bağlanmanız gerekmektedir. Bu fonksiyon iki değişken döndürmektedir.
-
 ### 📝 Görev Ekleme
 
 ```python
-add_task("kullanici_adi", "gorev_tanimi", db_connection, db_cursor)
+add_task("kullanici_adi", "gorev_tanimi")
 ```
 
 Belirtilen kullanıcı adına görev ekler.
@@ -79,7 +77,7 @@ Belirtilen kullanıcı adına görev ekler.
 ### ✅ Görev Tamamlama
 
 ```python
-complete_task(task_id, db_connection, db_cursor)
+complete_task(task_id)
 ```
 
 Belirtilen görev ID'sini tamamlandı olarak işaretler.
@@ -87,7 +85,7 @@ Belirtilen görev ID'sini tamamlandı olarak işaretler.
 ### ❌ Görev Silme
 
 ```python
-delete_task(task_id, db_connection, db_cursor)
+delete_task(task_id)
 ```
 
 Belirtilen görev ID'sine sahip görevi siler.
@@ -95,7 +93,7 @@ Belirtilen görev ID'sine sahip görevi siler.
 ### 📋 Görevleri Listeleme
 
 ```python
-get_all_tasks(db_connection, db_cursor)
+get_all_tasks()
 ```
 
 Mevcut tüm görevleri listeler.
