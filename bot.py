@@ -72,4 +72,3 @@ async def on_message(message): # CHATE MESAJ YAZILDIGINDA CALISIR
             await message.channel.send('Task not found!')
 token = 'YOUR BOT TOKEN'
 client.run(token) #DISCORD BOTUNU BAŞLATIR
-
